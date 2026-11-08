@@ -1,0 +1,24 @@
+# Secrets and local environment files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+credentials/
+
+# Raw assessment artifacts – keep originals outside the public repository
+raw-evidence/
+original-screenshots/
+*.burp
+*.har
+*.pcap
+*.pcapng
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
